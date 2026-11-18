@@ -1,0 +1,126 @@
+body{
+    background-color: #817955;
+}
+
+main{
+    width: 1027px;
+    position: relative;
+    margin: auto;
+}
+
+main div{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+#img{
+    position: static;
+}
+
+#arryn{
+    /*background-color: aqua;*/
+    top: 365px;
+    left: 305px;
+}
+
+#baratheon{
+    /*background-color: #eaff00;*/
+    top: 275px;
+    right: 180px;
+}
+
+#bolton{
+    /*background-color: #ff00bf;*/
+    top: 940px;
+    left: 290px;
+}
+
+#greyjoy{
+    /*background-color: #000000;*/
+    top: 680px;
+    left: 270px;
+}
+
+#lannister{
+    /*background-color: #ff0000;*/
+    top: 405px;
+    right: 290px;
+}
+
+#martell{
+    /*background-color: #ffd000;*/
+    top: 1335px;
+    left: 305px;
+}
+
+#stark{
+    /*background-color: #ffffff;*/
+    top: 120px;
+    right: 320px;
+}
+
+#targaryen{
+    /*background-color: #ff5500;*/
+    top: 185px;
+    left: 335px;
+}
+
+#tully{
+    /*background-color: #02007e;*/
+    top: 760px;
+    left: 475px;
+}
+
+#tyrell{
+    /*background-color: #01460a;*/
+    top: 745px;
+    left: 680px;
+}
+
+#morada{
+    /*background-color: #7d0181;*/
+    top: 1365px;
+    right: 150px;
+}
+
+#negridorada{
+    /*background-color: #9d8d00;*/
+    top: 1210px;
+    right: 365px;
+}
+
+#mi-tarjeta {
+    position: absolute;
+    background-color: rgba(20, 20, 20, 0.95);
+    color: #ffffff;
+    padding: 15px;
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    width: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+    pointer-events: none; /* Para que no interfiera al mover el ratón */
+}
+
+/* Estilo para la imagen dentro de la tarjeta */
+#mi-tarjeta img {
+    width: 100%;           /* Ocupa todo el ancho de la tarjeta */
+    height: auto;
+    border-radius: 4px;    /* Bordes redondeados */
+    margin-bottom: 10px;   /* Separación con el texto de abajo */
+    border: 1px solid #555;
+}
+
+#mi-tarjeta h3 {
+    margin: 0 0 10px 0;
+    color: #ffd700;
+    text-align: center; /* Centrar el título */
+}
+
+#mi-tarjeta p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
